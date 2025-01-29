@@ -4,6 +4,12 @@
     color: var(--clr-n-smokeyGrey);
     font-weight: var(--fw-700);
 }
+.labelError{
+    text-transform: uppercase;
+    letter-spacing: .05ch;
+    font-weight: var(--fw-700);
+    color:var(--clr-p-lightRed);
+}
 .input{
     padding: .75rem;
     margin-top: .5ch;
@@ -14,10 +20,34 @@
 
     font-weight: var(--fw-700);
 }
+.inputError{
+    padding: .75rem;
+    margin-top: .5ch;
+    border-radius: .5rem;
+    border-style: solid;
+    border-color: var(--clr-p-lightRed);
+    border-width: 1px;
+
+    font-weight: var(--fw-700);
+}
 
 .input:focus-visible{
     outline: solid;
     outline-width: 1px;
     outline-color: var(--clr-p-purple);
     border-color: var(--clr-p-purple);
+}
+
+.inputError:focus-visible{
+    outline: solid;
+    outline-width: 1px;
+    outline-color: var(--clr-p-purple);
+    border-color: var(--clr-p-purple);
+}
+
+.error{
+    color:var(--clr-p-lightRed);
+    margin-top: .5rem;
+    font-size: var(--fs-300);
+    line-height: 1.5;
 }

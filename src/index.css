@@ -79,9 +79,12 @@ textarea:not([rows]) {
   --clr-n-offBlack: hsl(0, 0%, 8%);
 
   --ff-p: "Poppins";
+
   --fw-400: 400;
   --fw-700: 700;
   --fw-800: 800;
+
+  --fs-300: 0.875rem;
   --fs-400: 1rem;
   --fs-700: 2rem;
 }

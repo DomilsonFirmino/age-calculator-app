@@ -14,6 +14,13 @@
   padding: .5rem;
   border-radius: 100%;
   cursor: pointer;
+
+  transition: all 2ms ease-in;
+}
+
+.button:disabled{
+  background-color: var(--clr-n-lightGrey);
+  pointer-events: none;
 }
 
 .button:hover{
