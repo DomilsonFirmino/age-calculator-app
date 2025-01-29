@@ -1,0 +1,23 @@
+.label{
+    text-transform: uppercase;
+    letter-spacing: .05ch;
+    color: var(--clr-n-smokeyGrey);
+    font-weight: var(--fw-700);
+}
+.input{
+    padding: .75rem;
+    margin-top: .5ch;
+    border-radius: .5rem;
+    border-style: solid;
+    border-color: var(--clr-n-lightGrey);
+    border-width: 1px;
+
+    font-weight: var(--fw-700);
+}
+
+.input:focus-visible{
+    outline: solid;
+    outline-width: 1px;
+    outline-color: var(--clr-p-purple);
+    border-color: var(--clr-p-purple);
+}

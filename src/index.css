@@ -100,19 +100,41 @@ html, body, #root{
 html{
   font-family: var(--ff-p,serif);
   font-weight: var(--fw-400);
-  font-style: italic;
   font-size: var(--fs-400);
 }
 
-#root{
-  padding: 0 2rem;
+input{
+  width: 100%;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+}
+
+body{
+  width: calc(100% - 2rem);
+  margin: auto;
+  background-color: var(--clr-n-offWhite);
+}
+
+@media screen and (min-width: 60em) {
+  body{
+    width: auto;
+  }
 }
 
 @media screen and (min-width: 60em) {
   #root{
     display: grid;
     place-content: center;
-    padding: 0;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  #root{
+    width: 30rem;
+    margin: auto;
   }
 }
 
