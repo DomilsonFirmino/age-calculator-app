@@ -1,50 +1,53 @@
-# React + TypeScript + Vite
+# Frontend Mentor - Age Calculator App Solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Age Calculator App challenge on Frontend Mentor](). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-## Expanding the ESLint configuration
+## Overview
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### The challenge
 
-- Configure the top-level `parserOptions` property like this:
+Users should be able to:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- Input their birth date and see their exact age in years, months, and days.
+- See validation messages if any field is incomplete or incorrect.
+- View a responsive layout suitable for different screen sizes.
+- Experience smooth UI interactions with meaningful feedback.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### Screenshot
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+![](./screenshot.PNG)
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Links
+
+- Solution URL: [GitHub Repository](https://github.com/DomilsonFirmino/age-calculator-app)
+- Live Site URL: [Live Demo](https://domilsonfirmino.github.io/age-calculator-app/)
+
+## My process
+
+### Built with
+
+- [React](https://reactjs.org/) - JS library
+- [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript
+- Css Modules
+
+### Useful resources
+
+- [React Docs](https://reactjs.org/docs/getting-started.html) - Helped solidify my React knowledge.
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html) - Enhanced my TypeScript understanding.
+
+## Author
+
+- Frontend Mentor - [@DomilsonFirmino](https://www.frontendmentor.io/profile/DomilsonFirmino)
+- GitHub - [DomilsonFirmino](https://github.com/DomilsonFirmino)
+- LinkedIn - [Domilson Firmino](https://www.linkedin.com/in/domilson-firmino)
